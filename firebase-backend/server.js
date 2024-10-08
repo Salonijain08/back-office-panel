@@ -3,10 +3,8 @@ const cors = require("cors");
 const admin = require("firebase-admin");
 require("dotenv").config();
 
-const cors = require('cors');
-app.use(cors({
-  origin: '*', // Allow requests from your frontend
-}));
+
+
 
 
 try {

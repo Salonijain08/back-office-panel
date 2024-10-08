@@ -19,7 +19,7 @@ const Tasks = () => {
     const fetchTasks = async () => {
       setLoading(true);
       try {
-        const response = await axios.get("https://back-office-panel-u5qb.onrender.com/tasklists");
+        const response = await axios.get("http://localhost:4000/tasklists");
         const taskData = [];
 
         response.data.forEach((user) => {

@@ -16,7 +16,7 @@ const Users = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await fetch("https://back-office-panel-u5qb.onrender.com/users");
+        const response = await fetch("http://localhost:4000/users");
         const data = await response.json();
         setRows(data);
       } catch (error) {
